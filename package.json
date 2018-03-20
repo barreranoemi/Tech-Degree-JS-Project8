@@ -1,25 +1,34 @@
 {
-  "name": "gulp_build",
+  "name": "Tech-Degree-JS-Project8",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barreranoemi/Tech-Degree-JS-Project8.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barreranoemi/Tech-Degree-JS-Project8/issues"
+  },
+  "homepage": "https://github.com/barreranoemi/Tech-Degree-JS-Project8#readme",
   "dependencies": {
     "browser-sync": "^2.23.6",
     "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.5.0",
-    "gulp-eslint": "^4.0.2",
     "gulp-imagemin": "^4.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-sequence": "^1.0.0",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.0"
+    "gulp-uglify": "^3.0.0",
+    "run-sequence": "^2.2.1"
   }
 }
