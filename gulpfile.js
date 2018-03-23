@@ -33,6 +33,7 @@ gulp.task("styles", function() {
   	.pipe(sass())
   	.pipe(cleanCSS({compatibility: 'ie8'}))
   	.pipe(rename('all.min.css'))
+  	.pipe(srcMaps.write('./'))
   	.pipe(gulp.dest('dist/styles'))
   	.pipe(browserSync.reload({
       stream: true
